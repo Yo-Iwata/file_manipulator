@@ -1,28 +1,6 @@
 import sys
 import os
 
-# file = open('test.txt')
-# print(file.read())
-# file.close()
-
-# file_path = 'test.txt'
-# file = open(file_path)
-# file_contents = file.read()
-# file.close()
-
-# file = open(file_path, 'w')
-# file.write(file_contents + "\nAppending more text to this file")
-# file.close()
-
-# pathname = 'test.txt'
-# contents = ''
-
-# with open(pathname) as f:
-#     contents = f.read()
-
-# with open(pathname, 'w') as f:
-#     f.write(contents + "\nAppending more text to this file")
-
 argv = sys.argv
 argv_num = len(sys.argv)-1
 
